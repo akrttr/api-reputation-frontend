@@ -9,7 +9,7 @@ const AddApiForm = ({ onApiAdded }) => {
     e.preventDefault(); // Sayfa yenilenmesini önle
 
     try {
-      const response = await axios.post("http://localhost:5000/api/apiinfo", {
+      const response = await axios.post("https://localhost:44394/api/ApiInfo", {
         name,
         baseUrl
       });

@@ -10,7 +10,7 @@ const ApiList = () => {
   }, []);
 
   const fetchApis = () => {
-    axios.get("http://localhost:5000/api/apiinfo")
+    axios.get("https://localhost:44394/api/ApiInfo")
       .then(response => {
         setApis(response.data);
       })
